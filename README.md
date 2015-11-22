@@ -1,5 +1,6 @@
-#Установка проекта (способ №1)
+#Установка проекта
 
+### Способ №1
 ###1. Клонируем репозиторий
 ```html
 git clone
@@ -9,6 +10,13 @@ git clone
 ```html
 php composer.phar self-update
 php composer.phar update
+```
+
+### Способ №2
+
+###1. Скачиваем composer.phar - открываем терминал в папке куда нужно сохранить composer и вводим команду
+```html
+php -r "eval('?>'.file_get_contents('https://getcomposer.org/installer'));"
 ```
 
 ###2. Устанавливаем yii2 advanced
@@ -47,4 +55,17 @@ git branch -a
 просмотр локальных веток
 ```html
 git branch
+```
+
+привязка локальной ветки к удаленной
+
+```html
+git checkout -b [<em>ветка</em>] [<em>удал. сервер</em>]/[<em>ветка</em>]
+```
+
+обновление данных о удаленном репозитории
+
+данные об удаленных репозиториях:
+```html
+git remote update
 ```
