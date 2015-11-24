@@ -1,19 +1,26 @@
 #Установка проекта
-
-### Способ №1
+##(способ №1)
 ###1. Клонируем репозиторий
 ```html
 git clone
 ```
 
-###3. Запускаем composer.
+###2. Запускаем composer.
 ```html
 php composer.phar self-update
-php composer.phar update
+php composer.phar install / php composer.phar update
+```
+###3. Выполнить команду и следую инструкциям настроить окружение dev или prod:
+```html
+    init
 ```
 
-### Способ №2
+###4. Запускаем миграции
+```html
+    yii migrate
+```
 
+##(способ №2)
 ###1. Скачиваем composer.phar - открываем терминал в папке куда нужно сохранить composer и вводим команду
 ```html
 php -r "eval('?>'.file_get_contents('https://getcomposer.org/installer'));"
@@ -55,17 +62,4 @@ git branch -a
 просмотр локальных веток
 ```html
 git branch
-```
-
-привязка локальной ветки к удаленной
-
-```html
-git checkout -b [<em>ветка</em>] [<em>удал. сервер</em>]/[<em>ветка</em>]
-```
-
-обновление данных о удаленном репозитории
-
-данные об удаленных репозиториях:
-```html
-git remote update
 ```
