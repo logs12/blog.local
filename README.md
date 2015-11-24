@@ -37,20 +37,26 @@ php composer.phar update
 если возникает ошибка Fatal error: Call to undefined method Fxp\Composer\AssetPlugin\Package\Version\VersionParser::parseLinks() in ..
 то удаляем папку vendor и дделаем update
  line 272
-
 ```
-###4. Скачиваем файлы с гит
+
+###4. Выполнить команду и следую инструкциям настроить окружение dev или prod:
+```html
+    init
+```
+
+###5. Скачиваем файлы с гит
 ```html
 Заходим в корень проекта и делаем init
 ```
 
-###5. Скачиваем файлы с гит
+###6. Скачиваем файлы с гит
 
 ```html
 git init
 git remote add origin git@github.com:logs12/blog.git
 git checkout -b origin origin/master
-git pull
+git fetch --all
+git reset --hard origin/master
 ```
 
 ###Шпаргалка по командам Git
