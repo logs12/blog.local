@@ -83,7 +83,6 @@ class m140506_102106_rbac_init extends \yii\db\Migration
     {
         $authManager = $this->getAuthManager();
         $this->db = $authManager->db;
-
         $this->dropTable($authManager->assignmentTable);
         $this->dropTable($authManager->itemChildTable);
         $this->dropTable($authManager->itemTable);
