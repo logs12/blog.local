@@ -1,5 +1,9 @@
 #Установка проекта
+
 ##(способ №1)
+
+Путь DocumentRoot в VirtualHost: domen.ru
+
 ###1. Клонируем репозиторий
 ```html
 git clone https://github.com/logs12/blog.local.git .
