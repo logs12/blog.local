@@ -2,7 +2,7 @@
 ##(способ №1)
 ###1. Клонируем репозиторий
 ```html
-git clone
+git clone https://github.com/logs12/blog.local.git .
 ```
 
 ###2. Запускаем composer.
