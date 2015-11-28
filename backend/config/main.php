@@ -15,7 +15,9 @@ return [
     'homeUrl' => '/admin',
     'components' => [
         'user' => [
+            'class'=>'yii\web\User',
             'identityClass' => 'common\models\User',
+            'loginUrl'=>['sign-in/login'],
             'enableAutoLogin' => true,
         ],
         'log' => [

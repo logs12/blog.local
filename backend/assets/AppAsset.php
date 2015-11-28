@@ -23,7 +23,10 @@ class AppAsset extends AssetBundle
     public $js = [
     ];
     public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+        'yii\web\JqueryAsset',
+        'yii\jui\JuiAsset',
+        'yii\bootstrap\BootstrapPluginAsset',
+        'common\assets\FontAwesome',
+        'common\assets\JquerySlimScroll'
     ];
 }
