@@ -19,7 +19,6 @@
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
         "yiisoft/yii2-jui": "^2.0.0",
-        "dmstr/yii2-adminlte-asset": "2.*",
         "bower-asset/admin-lte": "^2.0",
         "bower-asset/font-awesome": "^4.0",
         "bower-asset/jquery-slimscroll": "^1.3",
